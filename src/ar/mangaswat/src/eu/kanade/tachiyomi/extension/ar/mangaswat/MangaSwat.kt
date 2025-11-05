@@ -29,7 +29,7 @@ import java.util.Locale
 class MangaSwat :
     MangaThemesia(
         "MangaSwat",
-        "https://swatscans.com",
+        "https://appswat.com", // FIXED: Updated base URL
         "ar",
         dateFormat = SimpleDateFormat("MMMM dd, yyyy", Locale("ar")),
     ),
